@@ -1,6 +1,14 @@
 body {
   cursor: crosshair;
   user-select: none; /* 禁用复制粘贴 */
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../public/image1.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 button {

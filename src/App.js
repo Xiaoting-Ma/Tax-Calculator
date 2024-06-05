@@ -1,22 +1,12 @@
 import React from 'react';
 import TaxCalculator from './components/TaxCalculator';
-import styled from '@emotion/styled';
-
-const BackgroundContainer = styled.div`
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url('/image1.jpg'); 
-  background-size: cover;
-  background-position: center;
-`;
+import './App.css'; // 引用 App.css
 
 function App() {
   return (
-    <BackgroundContainer>
+    <div>
       <TaxCalculator />
-    </BackgroundContainer>
+    </div>
   );
 }
 
