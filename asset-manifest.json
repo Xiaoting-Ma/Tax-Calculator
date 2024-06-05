@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Tax-Calculator/static/css/main.95f1b7cd.css",
-    "main.js": "/Tax-Calculator/static/js/main.a3dc8c83.js",
+    "main.css": "/Tax-Calculator/static/css/main.515c4f2a.css",
+    "main.js": "/Tax-Calculator/static/js/main.d9fb7133.js",
+    "static/media/image1.jpg": "/Tax-Calculator/static/media/image1.9785ab53fd4fe12a0eb1.jpg",
     "index.html": "/Tax-Calculator/index.html",
-    "main.95f1b7cd.css.map": "/Tax-Calculator/static/css/main.95f1b7cd.css.map",
-    "main.a3dc8c83.js.map": "/Tax-Calculator/static/js/main.a3dc8c83.js.map"
+    "main.515c4f2a.css.map": "/Tax-Calculator/static/css/main.515c4f2a.css.map",
+    "main.d9fb7133.js.map": "/Tax-Calculator/static/js/main.d9fb7133.js.map"
   },
   "entrypoints": [
-    "static/css/main.95f1b7cd.css",
-    "static/js/main.a3dc8c83.js"
+    "static/css/main.515c4f2a.css",
+    "static/js/main.d9fb7133.js"
   ]
 }
