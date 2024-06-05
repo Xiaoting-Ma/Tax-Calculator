@@ -7,7 +7,7 @@ const BackgroundContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('/image1.jpg'); // 引用 public 文件夹中的图片
+  background-image: url('/image1.jpg'); 
   background-size: cover;
   background-position: center;
 `;
