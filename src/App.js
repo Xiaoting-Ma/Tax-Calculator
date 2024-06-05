@@ -1,6 +1,6 @@
 import React from 'react';
 import TaxCalculator from './components/TaxCalculator';
-import './App.css'; // 引用 App.css
+import './App.css'; 
 
 function App() {
   return (

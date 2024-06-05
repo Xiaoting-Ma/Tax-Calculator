@@ -9,21 +9,21 @@ const StyledFormControl = styled(FormControl)`
 const ButtonGroup = styled(Box)`
   margin-top: 20px;
   display: flex;
-  justify-content: center; /* 居中按钮 */
-  gap: 20px; /* 按钮之间的间距 */
+  justify-content: center; 
+  gap: 20px; /* Gap between the buttons */
 `;
 
 const StyledButton = styled(Button)`
-  background-color: #fca311; /* 自定义颜色 */
+  background-color: #fca311; 
   &:hover {
-    background-color: #f6bd60; /* 悬停时的颜色 */
+    background-color: #f6bd60; 
   }
 `;
 
 const SubmitButton = styled(Button)`
-  background-color: #52796f; /* 自定义颜色 */
+  background-color: #52796f; 
   &:hover {
-    background-color: #84a98c; /* 悬停时的颜色 */
+    background-color: #84a98c; 
   }
 `;
 

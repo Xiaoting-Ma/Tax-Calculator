@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { Container } from '@mui/material';
 import styled from '@emotion/styled';
-import '../App.css'; // 引入全局样式
+import '../App.css'; 
 import FormComponent from './FormComponent';
 import ResultComponent from './ResultComponent';
 import FooterComponent from './FooterComponent';
 
 const StyledContainer = styled(Container)`
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8); /* 设置为半透明白色背景 */
+  background-color: rgba(255, 255, 255, 0.8); /* Half trasparent */
   border-radius: 10px;
 `;
 

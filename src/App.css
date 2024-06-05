@@ -1,18 +1,18 @@
 body {
   cursor: crosshair;
-  user-select: none; /* 禁用复制粘贴 */
+  user-select: none; /* Copy and paste banned */
   margin: 0;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('../public/image1.jpg');
+  background-image: url('../public/image1.jpg');  /* Important! Use relative path. Do not use absolute('/image1.jpg') */
   background-size: cover;
   background-position: center;
 }
 
 button {
-  cursor: pointer; /* 鼠标悬停在按钮上时显示小手形状 */
+  cursor: pointer; /* Change the cursor style */
 }
 
 
