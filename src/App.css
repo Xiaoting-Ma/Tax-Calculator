@@ -1,0 +1,10 @@
+body {
+  cursor: crosshair;
+  user-select: none; /* 禁用复制粘贴 */
+}
+
+button {
+  cursor: pointer; /* 鼠标悬停在按钮上时显示小手形状 */
+}
+
+
