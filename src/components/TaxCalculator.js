@@ -8,9 +8,11 @@ import FooterComponent from './FooterComponent';
 
 const StyledContainer = styled(Container)`
   padding: 20px;
-  width: 600px;
+  width: 90%;
+  max-width: 600px;
   background-color: rgba(255, 255, 255, 0.8); /* 0.8 transparent */
   border-radius: 10px;
+  margin: 0 auto; /* Center align */
 `;
 
 const TaxCalculator = () => {

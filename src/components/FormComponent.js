@@ -6,24 +6,29 @@ const StyledFormControl = styled(FormControl)`
   margin-bottom: 20px;
 `;
 
+const StyledTextField = styled(TextField)`
+  width: 100%;
+  min-width: 300px; /* Ensure a minimum width */
+`;
+
 const ButtonGroup = styled(Box)`
   margin-top: 20px;
   display: flex;
-  justify-content: center; 
-  gap: 20px; /* Gap between the buttons */
+  justify-content: center;
+  gap: 20px;
 `;
 
 const StyledButton = styled(Button)`
-  background-color: #fca311; 
+  background-color: #fca311;
   &:hover {
-    background-color: #f6bd60; 
+    background-color: #f6bd60;
   }
 `;
 
 const SubmitButton = styled(Button)`
-  background-color: #52796f; 
+  background-color: #52796f;
   &:hover {
-    background-color: #84a98c; 
+    background-color: #84a98c;
   }
 `;
 
@@ -41,7 +46,7 @@ const FormComponent = ({ incomeYear, setIncomeYear, taxableIncome, setTaxableInc
         Tax Calculator
       </Typography>
       <form onSubmit={handleSubmit}>
-        <TextField
+        <StyledTextField
           select
           label="Select an income year"
           value={incomeYear}
@@ -54,9 +59,9 @@ const FormComponent = ({ incomeYear, setIncomeYear, taxableIncome, setTaxableInc
           <MenuItem value="2024" style={{ userSelect: 'none' }}>2023 - 2024</MenuItem>
           <MenuItem value="2023" style={{ userSelect: 'none' }}>2022 - 2023</MenuItem>
           <MenuItem value="2022" style={{ userSelect: 'none' }}>2021 - 2022</MenuItem>
-        </TextField>
+        </StyledTextField>
 
-        <TextField
+        <StyledTextField
           label="Enter your total taxable income"
           type="number"
           value={taxableIncome}
@@ -81,7 +86,7 @@ const FormComponent = ({ incomeYear, setIncomeYear, taxableIncome, setTaxableInc
         </StyledFormControl>
 
         {residencyStatus === 'part-year' && (
-          <TextField
+          <StyledTextField
             select
             label="Select number of months in Australia"
             value={monthsInAustralia}
@@ -93,7 +98,7 @@ const FormComponent = ({ incomeYear, setIncomeYear, taxableIncome, setTaxableInc
             {[...Array(12).keys()].map((month) => (
               <MenuItem key={month + 1} value={month + 1}>{month + 1}</MenuItem>
             ))}
-          </TextField>
+          </StyledTextField>
         )}
 
         <ButtonGroup>
